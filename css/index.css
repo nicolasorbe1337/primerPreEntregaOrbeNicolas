@@ -1,0 +1,59 @@
+*{
+    background-color: #181818;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.titlemain{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 50px;
+    color: #e6e6e6;
+    background: rgb(25,25,25);
+    background: linear-gradient(90deg, rgba(25,25,25,1) 0%, rgba(61,61,61,0.9948354341736695) 50%, rgba(28,28,28,1) 100%);
+    border-radius: 4px;
+}
+
+.containerButton{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(224, 224, 224);
+    border-radius: 4px;
+    
+}
+
+.seccionInfo{
+    width: 70%;
+    height: 300px;
+    margin: 15px;
+    margin-bottom: 40px;
+    padding: 30px;
+    border-radius: 8px;
+    background-color: rgb(49, 49, 49);
+    color:#c95959;
+    
+}
+p{
+    background-color: rgb(49, 49, 49);  
+    padding: 20px;
+    font-size: 1.5rem;
+}
+
+.iniciar{
+    border-radius: 5px;
+    width: 200px;
+    height: 60px;
+    font-size: 1rem;
+    font-weight: 900;
+    color:white ;
+    background-color: #5e998a;
+}
+.iniciar:hover{
+    background-color: rgb(140, 223, 198);
+    color: #181818;
+}
+
